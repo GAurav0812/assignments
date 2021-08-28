@@ -72,15 +72,8 @@ result.addEventListener("click", function () {
   } else {
     expression = inputString;
   }
-  /*  if (inputString.includes("x")) {
-    inputString.replaceAll("x", "*");
-  }
-  if (inputString.includes("÷")) {
-    inputString.replaceAll("÷", "/");
-  } */
   console.log("Result:" + eval(expression));
   input.innerText = eval(expression);
-  // checkForOperators(input.innerText);
   enableOperators();
 });
 clear.addEventListener("click", function () {

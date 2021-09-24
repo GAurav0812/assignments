@@ -197,3 +197,90 @@ function isPalindrome(n){
     function countWords(str){
         return str.trim().split(/\s+/).filter((n)=> n!='').length;
     }
+
+    /*function isEven(n)
+{
+    let isEven = true;
+    for (var i=1;  i <= n; i++)
+        isEven = !isEven;
+    return isEven;
+}
+*/
+/*function oddSum() {
+    let res = 0;
+    for(let i=2; i<=100; i++) {
+        res = res + i
+        i++;
+    }
+    return res;
+}*/
+/*function getDecrementedArray(n)
+{
+    let arr = [];
+    for (var i=n;  i >= 0; i--)
+       arr.push(i);
+       n--;
+    return arr;
+}*/
+/*function getDecrementedArray(n)
+{
+    let arr = [];
+while(n >=0)
+{
+  arr.push(n);
+  n--
+}
+    return arr;
+}*/
+/*function getOdds(n)
+{
+    let arr = [];
+
+   for(let i = 0; i <= n; i++){
+     if(i%2!==0){
+       arr.push(i);
+     }
+           
+   }
+    return arr;
+}*/
+/*var arr=[
+      [1, 2,3],
+      [1, 2,3],
+      [3,4],
+  ]
+function calculate()
+{
+   let sum=1;
+
+   for(let i = 0; i < arr.length; i++){
+      var subArray = arr[i];
+    for(var j = 0; j < subArray.length; j++) {
+        sum = sum*arr[i][j];
+    }
+   }
+    return sum;
+}*/
+
+/*var data = [{
+        firstName: 'Gaurav',
+        likes: ['likes']
+    },
+    {
+        firstName: 'Ayush',
+        likes: ['likes']
+    },
+    {
+        firstName: 'Sameer',
+    },
+]
+
+function lookup(value, key) {
+    for (let i = 0; i < data.length; i++) {
+      var result='No such firstname';
+        if (data[i].firstName === value) {
+               result = data[i][key] ? data[i][key]:'No such Property';
+        }
+    }
+     return result;
+}*/

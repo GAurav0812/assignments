@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    background: #FFFFFF;
+}
+
+.container .main {
+    margin: 0px auto;
+    width: 970px;
+    background: transparent;
+    height: 100vh;
+}
+
+.container .header {
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: #F4F1EA;
+}
+
+
+
+.container .main .sections {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px;
+}
+
+.container .main .sections .section-1 {
+   width: 15%;;
+    /*   flex: 3; */
+}
+
+.container .main .sections .section-1 .cover-image img {
+    max-width: 150px;
+    margin: 0 auto 10px;
+    box-shadow: #ddd 0px 5px 5px;
+}
+
+.container .main .sections .section-2 {
+    width: 50%;
+    /*   flex: 6; */
+}
+
+.container .main .sections .section-2 .bookInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    /*   flex: 6; */
+}
+
+.container .main .sections .section-2 .bookInfo .bookTitle {
+    width: 100%;
+    font-size: 24px;
+}
+
+.container .main .sections .section-2 .bookInfo .authorName {
+    color: #333;
+    font-size: 16px;
+    font-family: serif;
+}
+.container .main .sections .section-2 .bookInfo .authorName-container {
+    padding: 10px 0;
+}
+.container .main .sections .section-2 .bookInfo .authorName-container .authorName {
+    color: #333;
+    font-size: 16px;
+    font-family: serif;
+}
+
+.container .main .sections .section-3 {
+    width: 35%;
+    /* flex: 4; */
+}
+
+.container .main .sections .section-3 .book-genre .brownBackground {
+    display: block;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 2px 0;
+    width: auto;
+    height: 24px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.container .main .sections .section-3 .book-genre .genreList {}
+
+.container .main .sections .section-3 .book-genre .genreList .element {
+    border-bottom: 1px solid #d7d7d7;
+    font-family: sans-serif;
+    padding: 5px;
+    display: flex;
+}
+
+.container .main .sections .section-3 .book-genre .genreList .element .left {
+    float: left;
+}
+
+.container .main .sections .section-3 .book-genre .genreList .element .right {
+    float: right;
+}
+
+.greyText {
+    color: #999999;
+}
+
+.bookPageGenreLink {
+    font-size: 14px;
+    line-height: 21px;
+}

@@ -25,6 +25,8 @@ let myFunction = {
 
 console.log(30 > 20 > 10)
 
+//var arr= [1,2,3];
+// output [2,3,1]
 
 function rotLeft(a, d)
  {

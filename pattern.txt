@@ -1,0 +1,93 @@
+/*
+function pattern(n) {
+    for (var row = 1; row <= n; row++) {
+       var res='';
+        for (var col = 0; col < n; col++) {
+            res += (row + col); 
+        }
+        console.log(res);
+    }
+}*/
+/*function pattern(n) {
+    var count=1;
+    for (var row = 1; row <= n; row++) {
+       var res='';
+        for (var col = 0; col < n; col++) {
+            res += count; 
+            count++;
+        }
+        console.log(res);
+    }
+}
+Output:
+
+123
+456
+789*/
+/*function pattern(n) {
+  for (var row = 0; row < n; row++) {
+       var res='';
+        for (var col = 0; col < n; col++) {
+            res += (row + col); 
+        }
+        console.log(res);
+    }
+}
+console.log(pattern(3))
+Output:
+
+012
+123
+234*/
+
+/*function pattern2(n) {
+  let res = '';
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (i + j >= n-1) {
+        res +='*';
+      } else {
+        res +=' ';
+      }
+    }
+    res += '\n';
+  }
+  return res;
+}*/
+
+/*function patt(n){
+var res = '';
+for(let row=0;row<n;row++){
+    for(let col1=0;col1<n-row-1;col1++){
+        res=res+' ';
+    }    
+    for(let col2=0;col2<=row;col2++){
+        res=res+'*'
+    }
+    res = res+'\n';
+}
+
+return res;
+}*/
+
+/*function pattern2(n) {
+  let res = '';
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (i + j >= n-1) {
+        res +='*';
+      } else {
+        res +=' ';
+      }
+    }
+    res += '\n';
+  }
+  return res;
+}
+console.log(pattern2(4));
+Output:
+
+   *
+  **
+ ***
+*****/

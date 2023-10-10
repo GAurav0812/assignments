@@ -1,0 +1,50 @@
+{
+    "development": {
+      "username": "bbqn_user",
+      "password": "T@X6t$Ha$gMq",
+      "database": "bbqn_bookings",
+      "host": "10.10.0.180",
+      "dialect": "mysql",
+      "operator": false,
+      "port": 3306,
+      "timeout": 1200000,
+      "dialectOptions": {
+        "connectTimeout": 1200000
+      },
+      "pool":{
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 30000
+      }
+    },
+    "database": {
+      "username": "",
+      "password": "",
+      "database": "",
+      "host": "",
+      "dialect": "mysql",
+      "operator": false,
+      "pool":{
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "production": {
+      "username": "",
+      "password": "",
+      "database": "",
+      "host": "",
+      "dialect": "mysql",
+      "operator": false,
+      "pool":{
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    }
+  }
+  

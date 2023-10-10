@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container .main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .main .result {
+    font-size: 2rem;
+}
+
